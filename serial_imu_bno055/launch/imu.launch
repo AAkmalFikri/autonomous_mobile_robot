@@ -1,0 +1,15 @@
+<launch>
+
+    <arg name="serial_port" default="/dev/ttyUSB0" />
+    <arg name="frame_id" default="imu_link" />
+    <arg name="frequency" default="100" /> 
+
+    <node pkg="serial_imu_bno055" type="serial_imu_node.py" name="ros_serial_imu_node" output="screen">
+        <param name="serial_port" value="$(arg serial_port)" />
+        <param name="frame_id" value="$(arg frame_id)" />
+        <param name="frequency" value="$(arg frequency)" />
+    </node>
+
+  <!--node name="rviz" pkg="rviz" type="rviz" args="-d $(find serial_imu)/launch/serial_imu.rviz" output="screen"/-->
+
+</launch>
