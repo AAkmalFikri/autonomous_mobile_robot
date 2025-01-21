@@ -3,7 +3,7 @@ The Application of SLAM System (Cartographer) and Autonomous Robot Navigation Sy
 
 ### Related Paper:  
 ```bibtex
-@article{
+@article{Fikri2021
 author={Fikri, A.A.; Anifah, L.},
 title={MAPPING AND POSITIONING SYSTEM ON OMNIDIRECTIONAL ROBOT USING SIMULTANEOUS LOCALIZATION AND MAPPING (SLAM) METHOD BASED ON LIDAR},
 volume={83},
