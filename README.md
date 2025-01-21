@@ -11,7 +11,7 @@ number={6},
 journal={Jurnal Teknologi (Sciences &amp; Engineering)},
 year={2021},
 month={Sep.},
-pages={41–52}
+pages={41–52},
 doi={10.11113/jurnalteknologi.v83.16918},
 url={https://journals.utm.my/jurnalteknologi/article/view/16918},
 }
